@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Oswald;
+  src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Oswald;
+}
+body{
+  background-color: #151110;
+  
+
+}
+
+
+#inicio .contenido header{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top:0;
+}
+#inicio .contenido header .contenido-header{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header h1{
+  text-align: center;
+  color: aquamarine
+}
+#inicio .contenido header .contenido-header nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+#inicio .contenido header .contenido-header nav ul li a{
+  text-decoration: none;
+  color :#fff;
+  margin: 0 12px;
+  font-weight: 400;
+  transition: .5s;
+}
+
+/*h1{
+  display: grid;
+  align-items: center;
+  color: aquamarine;
+}*/
